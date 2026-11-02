@@ -1,0 +1,8 @@
+# Security headers applied by Netlify when the site is deployed.
+# These can only be set as real HTTP response headers (not via <meta> tags).
+# GitHub Pages ignores this file; if deploying there, headers cannot be customised.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
